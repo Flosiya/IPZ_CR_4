@@ -63,7 +63,7 @@ fun Element(index: Int) {
             onClick = {},
             modifier = Modifier.align(Alignment.End)
         ) {
-            Text(text = "Кнопка")
+            Text(text = "Кнопка $index")
         }
     }
 }
